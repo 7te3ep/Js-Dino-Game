@@ -5,13 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Chill Sheep Adventure</title>
+    <link rel="icon" href="pixil-frame-0.png">
 </head>
-<body onclick="jump()">
-    <div class="game">
-        <div class="char"></div>
-        <div class="block"></div>
-    </div>
-    <script src="game.js"></script>
+<body onclick="playerJump()">
+<p id="gameName"class="topElement">Chill Sheep Adventure</p> 
+<div class="topElement"id="score">0000</div>
+<section id="title">Hi ! This is absolutly not a bad dino game, click or presse enter to start</section>
+<section id="game">
+    <div id="ground"></div>
+    <div id="player"></div>
+    <div id="obstacle"></div>
+</section>
+<p id="gameManager">Press Enter Or Click To play</p>
+<div class="wasted">WASTED</div>
+<script src="game.js"></script>
 </body>
 </html>
